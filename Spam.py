@@ -1,5 +1,5 @@
 import pyautogui, time #Import Pyautogui (Control the mouse and keyboard to automate interactions)and Time (for sleep fucntion)
-time.sleep(5) #Sleep Timer to change the window
+time.sleep(5) #Delay Timer
 f = open("HelloScript.txt",'r') #Read the Script file/text 
 for word in f: #For reading each word in file 
     pyautogui.typewrite(word) #This function will type the characters in the string that is passed
